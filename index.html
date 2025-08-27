@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Hotline Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+<body class="bg-[#F5FFF6] min-h-screen">
+
+    <section>
+
+        <!-- Navbar -->
+  <div class="navbar navbar flex flex-col md:flex-row items-center justify-between bg-white px-6 py-4">
+    <!-- Left side -->
+    <div class="flex justify-center items-center   gap-2">
+      <img src="assets/logo.png" alt="Logo" class="w-10 h-10" />
+      <p class=" mt-3 ml-2 text-green-800 font-bold text-lg leading-tight">Emergency <br> Service</p>
+
+    </div>
+    <!-- Right side -->
+    <div class=" flex items-center gap-5 mt-3 md:mt-0">
+      <!-- Heart Icon -->
+      <div class="flex items-center gap-2 px-4 py-1 bg-[#EBFFF2] rounded-full">
+    <span class="font-bold text-black text-lg" id="heart-count">0</span>
+     <img src="assets/heart.png" alt="" class="w-5">
+     </div>
+ 
+
+      <!-- Coin Count -->
+     <div class="flex items-center gap-2 px-4 py-1 bg-[#EBFFF2] rounded-full">
+    <span class="font-bold text-black text-lg">100</span>
+    <img src="assets/coin.png" alt="coin" class="w-5 h-5" />
+  </div>
+
+      <!-- Copy Count -->
+      <div class="bg-[#00B44B] text-white font-bold px-6 py-2 rounded-full text-lg">
+        <span>Copy</span>
+      </div>
+    </div>
+  </div>
+
+    </section>
+
+   
 </body>
 </html>
